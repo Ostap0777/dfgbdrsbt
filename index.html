@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="css/style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ReactMeals</title>
+</head>
+<body>
+ <div class="modal__container">
+ <section class="modal hidden">
+	<button class="btn-close">X</button>
+	<div class="flex"></div>
+	<p id="total-price">Загальна сума: $0.00</p>
+ </section>
+
+</div>
+    <div class="overlay hidden"></div>
+ <div class="wrapper">
+  <header class="header">
+   <div class="header__container">
+    <a href="#" class="header__logo">ReactMeals</a>
+    <a  href="#"  class="header__buy buy">
+     <button class="btn btn-open"><span href="" class="buy-header__logo"><img src="img/shopping basket.svg" alt="#"></span></button>
+     <span href="#" class="buy-header__cart">Your Cart</span>
+     <span class="cart-header__quantity">0</span>
+    </a>
+   </div>
+  </header>
+  <main class="page">
+   <section class="page__main main">
+         <img class="main__foto" src="img/slide_5-1000x350w.png" alt="">
+    <div class="main__container">
+     <div class="main__content">
+      <div class="main__info info">
+       <p class="info__title">Delicious Food, Delivered To You</p>
+       <div class="info__text"> 
+        <p class="info__text-1">Choose your favorite meal from our broad selection of available meals and enjoy a delicious
+         lunch or dinner at home.</p>
+        <p class="info__text-2">All our meals are cooked with high-quality ingredients, just-in-time and of course by
+          experienced chefs!</p>
+       </div>
+      </div>
+	</div>
+</div>
+</section>
+<section class="page__catalog catalog">
+<div class="catalog__container">
+ <div class="catalog__items item">
+	<articlec class="food__item">
+	<div class="foot__title">
+	<a href='#' class="foot__name">Sushi</a>
+	<a  href="#"><img class="foot__foto" src="img/sushi-6715579_1280.jpg" alt=""></a>
+  </div> 
+		<div  class="foot__info">
+	 <a href="#"  class="foot__opus">Finest fish and veggies</a>
+	 <a href="#" data-da="price1"  class="foot__price">$22.99</a>
+	</div>
+	<div class="foot__number">
+		<div class="foot-num__number">
+			<div class="foot-num__minus">-</div>
+			<div class="foot-num__on">0</div>
+			<div class="foot-num__plus">+</div>
+		</div>
+		<button class="foot__add" data-id="1">+Add</button>
+	</div>
+	</articlec>
+	<articlec class="foot__item">
+	<div class="foot__title">
+	<a href="#" class="foot__name">Schnitzel</a>
+	<a  href="#"><img class="foot__foto" src="img/shnicel1.jpg" alt=""></a>
+  </div>
+  <div  class="foot__info">
+	 <a href="#"  class="foot__opus">A german specialty!</a>
+	 <a href="#" data-da="price2"  class="foot__price"> $16.50</a>
+	</div>
+	<div class="foot__number">
+		<div class="foot-num__number">
+			<div class="foot-num__minus">-</div>
+			<div class="foot-num__on">0</div>
+			<div class="foot-num__plus">+</div>
+		</div>
+		<button class="foot__add" data-id="2">+Add</button>
+	</div>
+	</articlec>
+	<articlec class="foot__item">
+	<div class="foot__title">
+	<a href="#"  class="foot__name">Barbecue Burger</a>
+	<a  href="#"><img class="foot__foto" src="img/p_O.jpg" alt=""></a>
+	</div>
+	<div  class="foot__info">
+	 <a href="#"  class="foot__opus">American, raw, meaty</a>
+	 <a href=  "#" data-da="price3"  class="foot__price">$12.99</a>
+	</div>
+	 <div class="foot__number">
+		<div class="foot-num__number">
+			<div class="foot-num__minus">-</div>
+			<div class="foot-num__on">0</div>
+			<div class="foot-num__plus">+</div>
+		</div>
+	  <button class="foot__add" data-id="3">+Add</button>
+	 </div>
+	</articlec>
+ </div>
+</div>
+</section>
+
+</main>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
